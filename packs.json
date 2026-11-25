@@ -1,0 +1,273 @@
+{
+  "_comment": "Written by tools/make_packs.py. Content packs: the app downloads <PACKS_BASE_URL><file>, checks sha256, unzips pack.db and copies its rows into the content database. Release builds get a copy with only 'approved' packs (tools/make_release_db.py).",
+  "formatVersion": 1,
+  "contentDbVersion": 9,
+  "packs": [
+    {
+      "id": "translation.ur.mahmoodhasan",
+      "kind": "translation",
+      "editionId": "ur.mahmoodhasan",
+      "language": "ur",
+      "title": "Tarjuma Shaykh-ul-Hind (with Tafsir-e-Usmani notes)",
+      "titleEn": "Tarjuma Shaykh-ul-Hind (with Tafsir-e-Usmani notes)",
+      "author": "Shaykh-ul-Hind Mahmood Hasan (notes: Shabbir Ahmad Usmani)",
+      "version": "resource 151, fetched 2026-11-18",
+      "status": "pending",
+      "license": "Quran Foundation (Quran.com) Developer Terms: content must not be bundled in an APK; storing for more than 7 days only via the Content Sync APIs. Needs written permission from Quran Foundation and the publisher.",
+      "file": "translation.ur.mahmoodhasan-7c62a7b1a9.zip",
+      "zipBytes": 2294991,
+      "dbBytes": 8978432,
+      "sha256": "7c62a7b1a9e15a222f4d8027936bf2d33499f0c681202168a767c4ef817f1789",
+      "rows": {
+        "translation": 6236,
+        "translation_note": 7361
+      }
+    },
+    {
+      "id": "translation.en.taqiusmani",
+      "kind": "translation",
+      "editionId": "en.taqiusmani",
+      "language": "en",
+      "title": "The Meanings of the Noble Qur'an",
+      "titleEn": "The Meanings of the Noble Qur'an",
+      "author": "Mufti Muhammad Taqi Usmani",
+      "version": "resource 84, fetched 2026-11-18",
+      "status": "pending",
+      "license": "Quran Foundation (Quran.com) Developer Terms: content must not be bundled in an APK; storing for more than 7 days only via the Content Sync APIs. Needs written permission from Quran Foundation and the publisher.",
+      "file": "translation.en.taqiusmani-6f20928b18.zip",
+      "zipBytes": 434955,
+      "dbBytes": 1339392,
+      "sha256": "6f20928b183b1aeb98da4a8e35ee0b2e6f6b32695643f88aa03611acb198484e",
+      "rows": {
+        "translation": 6236,
+        "translation_note": 0
+      }
+    },
+    {
+      "id": "tafsir.ur.usmani",
+      "kind": "tafsir",
+      "editionId": "ur.usmani",
+      "language": "ur",
+      "title": "تفسیرِ عثمانی",
+      "titleEn": "Tafseer-e-Usmani",
+      "author": "Allama Shabbir Ahmad Usmani",
+      "version": "Quran.com translation 151 notes",
+      "status": "pending",
+      "license": "Copyright of the publisher of Tafseer-e-Usmani. Text taken from the Quran.com API (Quran Foundation, Terms of Use). Permission pending (app owner).",
+      "file": "tafsir.ur.usmani-2810fb5359.zip",
+      "zipBytes": 1811917,
+      "dbBytes": 7385088,
+      "sha256": "2810fb5359949edf0b394920ff5d1603514de2e16938d3ea195b3eb9fa9a6ce1",
+      "rows": {
+        "tafsir": 5094,
+        "tafsir_intro": 0
+      }
+    },
+    {
+      "id": "tafsir.ur.tawzih",
+      "kind": "tafsir",
+      "editionId": "ur.tawzih",
+      "language": "ur",
+      "title": "توضیح القرآن (آسان ترجمہ کے حواشی)",
+      "titleEn": "Tawzih-ul-Quran (notes of Asaan Tarjuma)",
+      "author": "Mufti Muhammad Taqi Usmani",
+      "version": "commit d387baa45410",
+      "status": "pending",
+      "license": "Copyright of Maktaba Maariful Quran, Karachi (Tawzih-ul-Quran). The dataset states no licence. Permission pending (app owner).",
+      "file": "tafsir.ur.tawzih-042dd15b34.zip",
+      "zipBytes": 638042,
+      "dbBytes": 2895872,
+      "sha256": "042dd15b34d6329a1dad18ca5a44f4284fbfdbe5d174bb01bc4edbb4e8130f6e",
+      "rows": {
+        "tafsir": 2278,
+        "tafsir_intro": 65
+      }
+    },
+    {
+      "id": "tafsir.en.maarif",
+      "kind": "tafsir",
+      "editionId": "en.maarif",
+      "language": "en",
+      "title": "Ma'arif al-Qur'an (English)",
+      "titleEn": "Ma'arif al-Qur'an (English)",
+      "author": "Mufti Muhammad Shafi (tr. Muhammad Hasan Askari, Muhammad Shamim)",
+      "version": "Quran.com tafsir 168, fetched 2026-11-23",
+      "status": "pending",
+      "license": "Copyright of Maktaba-e-Darul-Uloom, Karachi (English Ma'arif al-Qur'an). Text taken from the Quran.com API (Quran Foundation, Terms of Use). Permission pending (app owner).",
+      "file": "tafsir.en.maarif-3c3ade9599.zip",
+      "zipBytes": 4100825,
+      "dbBytes": 13303808,
+      "sha256": "3c3ade95992d91244624c316a1aeb02d2886da38c636ad8053dfc7511163b73f",
+      "rows": {
+        "tafsir": 3037,
+        "tafsir_intro": 0
+      }
+    },
+    {
+      "id": "tafsir.ur.ibnkathir",
+      "kind": "tafsir",
+      "editionId": "ur.ibnkathir",
+      "language": "ur",
+      "title": "تفسیر ابن کثیر",
+      "titleEn": "Tafseer Ibn Kaseer (Urdu)",
+      "author": "Hafiz Imaduddin Ibn Kathir (Urdu translation)",
+      "version": "Quran.com tafsir 160, fetched 2026-11-25",
+      "status": "pending",
+      "license": "Copyright of the publisher of the Urdu translation (translator not named by the API). Text taken from the Quran.com API (Quran Foundation, Terms of Use). Permission pending (app owner).",
+      "file": "tafsir.ur.ibnkathir-9ca42c7724.zip",
+      "zipBytes": 4231734,
+      "dbBytes": 17862656,
+      "sha256": "9ca42c77249a80cd18e87a1805169653ee1802b6870b1d3f327fa001d5b0d8c6",
+      "rows": {
+        "tafsir": 2101,
+        "tafsir_intro": 0
+      }
+    },
+    {
+      "id": "tafsir.en.ibnkathir",
+      "kind": "tafsir",
+      "editionId": "en.ibnkathir",
+      "language": "en",
+      "title": "Tafsir Ibn Kathir (English, abridged)",
+      "titleEn": "Tafsir Ibn Kathir (English, abridged)",
+      "author": "Hafiz Imaduddin Ibn Kathir (abridged, Darussalam)",
+      "version": "Quran.com tafsir 169, fetched 2026-11-25",
+      "status": "pending",
+      "license": "Copyright of Darussalam (Tafsir Ibn Kathir, abridged English). Text taken from the Quran.com API (Quran Foundation, Terms of Use). Permission pending (app owner).",
+      "file": "tafsir.en.ibnkathir-e3b4075286.zip",
+      "zipBytes": 3397270,
+      "dbBytes": 11997184,
+      "sha256": "e3b4075286a5c932e8214dd9396a0d00669fd42d815402993be5103657c08bb4",
+      "rows": {
+        "tafsir": 1895,
+        "tafsir_intro": 0
+      }
+    },
+    {
+      "id": "hadith.bukhari",
+      "kind": "hadith",
+      "editionId": "bukhari",
+      "language": "ar",
+      "title": "صحیح بخاری",
+      "titleEn": "Sahih al-Bukhari",
+      "author": "Imam Muhammad ibn Ismail al-Bukhari",
+      "version": "cd62605e4f+df57907be3",
+      "status": "pending",
+      "license": "Arabic + English (Muhsin Khan) via sunnah.com; Urdu translator not stated by the source (fawazahmed0/hadith-api). Permission pending (app owner).",
+      "file": "hadith.bukhari-c46d508b95.zip",
+      "zipBytes": 5677304,
+      "dbBytes": 26513408,
+      "sha256": "c46d508b95df1d4f72f4934a2e03cc29464518e9769f371744ce8f785966edd2",
+      "rows": {
+        "hadith_kitab": 97,
+        "hadith_bab": 97,
+        "hadith": 7277
+      }
+    },
+    {
+      "id": "hadith.muslim",
+      "kind": "hadith",
+      "editionId": "muslim",
+      "language": "ar",
+      "title": "صحیح مسلم",
+      "titleEn": "Sahih Muslim",
+      "author": "Imam Muslim ibn al-Hajjaj al-Naysaburi",
+      "version": "cd62605e4f+df57907be3",
+      "status": "pending",
+      "license": "Arabic + English (Abdul Hamid Siddiqui) via sunnah.com; Urdu translator not stated by the source (fawazahmed0/hadith-api). Permission pending (app owner).",
+      "file": "hadith.muslim-2c814aeaa4.zip",
+      "zipBytes": 4280322,
+      "dbBytes": 21880832,
+      "sha256": "2c814aeaa43972d040674355edc2e99f06706e7f03f5f54e27cdda4034288fb4",
+      "rows": {
+        "hadith_kitab": 56,
+        "hadith_bab": 56,
+        "hadith": 7368
+      }
+    },
+    {
+      "id": "hadith.abudawud",
+      "kind": "hadith",
+      "editionId": "abudawud",
+      "language": "ar",
+      "title": "سنن ابو داؤد",
+      "titleEn": "Sunan Abi Dawud",
+      "author": "Imam Abu Dawud Sulaiman ibn al-Ash'ath as-Sijistani",
+      "version": "cd62605e4f+df57907be3",
+      "status": "pending",
+      "license": "Arabic + English via sunnah.com; Urdu translator not stated by the source (fawazahmed0/hadith-api). Permission pending (app owner).",
+      "file": "hadith.abudawud-bb155d9141.zip",
+      "zipBytes": 3106440,
+      "dbBytes": 14827520,
+      "sha256": "bb155d9141d2c498f8854bbaa4397ef361c94d56855b0f99fb888e280fba916f",
+      "rows": {
+        "hadith_kitab": 43,
+        "hadith_bab": 43,
+        "hadith": 5276
+      }
+    },
+    {
+      "id": "hadith.tirmidhi",
+      "kind": "hadith",
+      "editionId": "tirmidhi",
+      "language": "ar",
+      "title": "جامع ترمذی",
+      "titleEn": "Jami at-Tirmidhi",
+      "author": "Imam Abu Isa Muhammad ibn Isa at-Tirmidhi",
+      "version": "cd62605e4f+df57907be3",
+      "status": "pending",
+      "license": "Arabic + English via sunnah.com; Urdu translator not stated by the source (fawazahmed0/hadith-api). Permission pending (app owner).",
+      "file": "hadith.tirmidhi-fe64867af6.zip",
+      "zipBytes": 2916499,
+      "dbBytes": 15323136,
+      "sha256": "fe64867af629f822742332cfe4a89ea77ce89996ca2b7a37b919e2d26cc0f672",
+      "rows": {
+        "hadith_kitab": 49,
+        "hadith_bab": 49,
+        "hadith": 4053
+      }
+    },
+    {
+      "id": "hadith.nasai",
+      "kind": "hadith",
+      "editionId": "nasai",
+      "language": "ar",
+      "title": "سنن نسائی",
+      "titleEn": "Sunan an-Nasa'i",
+      "author": "Imam Ahmad ibn Shu'aib an-Nasa'i",
+      "version": "cd62605e4f+df57907be3",
+      "status": "pending",
+      "license": "Arabic + English via sunnah.com; Urdu translator not stated by the source (fawazahmed0/hadith-api). Permission pending (app owner).",
+      "file": "hadith.nasai-f2179b69f5.zip",
+      "zipBytes": 2370683,
+      "dbBytes": 13082624,
+      "sha256": "f2179b69f5581b719f6b3ef8f89484181ca18f7d4250e7447c53d01444efa48c",
+      "rows": {
+        "hadith_kitab": 51,
+        "hadith_bab": 51,
+        "hadith": 5685
+      }
+    },
+    {
+      "id": "hadith.ibnmajah",
+      "kind": "hadith",
+      "editionId": "ibnmajah",
+      "language": "ar",
+      "title": "سنن ابن ماجہ",
+      "titleEn": "Sunan Ibn Majah",
+      "author": "Imam Muhammad ibn Yazid Ibn Majah al-Qazwini",
+      "version": "cd62605e4f+df57907be3",
+      "status": "pending",
+      "license": "Arabic + English via sunnah.com; Urdu translator not stated by the source (fawazahmed0/hadith-api). Permission pending (app owner).",
+      "file": "hadith.ibnmajah-9fcb459662.zip",
+      "zipBytes": 1927343,
+      "dbBytes": 9674752,
+      "sha256": "9fcb459662bdb8e68bb5942b41511d79cd4335868317e1e6fb7711c3a68eeb35",
+      "rows": {
+        "hadith_kitab": 37,
+        "hadith_bab": 37,
+        "hadith": 4079
+      }
+    }
+  ]
+}
